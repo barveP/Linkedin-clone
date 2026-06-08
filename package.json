@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-clone",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Full-stack LinkedIn clone — React, Node, GraphQL, PostgreSQL, Redis, Kafka, real-time activity feed.",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "db:reset": "npm --prefix server run db:reset",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test": "npm --prefix server test",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down"
+  }
+}
