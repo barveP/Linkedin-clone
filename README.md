@@ -12,6 +12,17 @@ pipeline (Kafka → Redis → GraphQL subscriptions).
 
 ---
 
+## 📸 Screenshots
+
+The home feed — left profile card, post composer, the post feed, and the
+real-time **Activity** sidebar that updates live over GraphQL subscriptions.
+
+![Home feed](screenshots/homepage.png)
+
+| Member profile | Sign in |
+| :---: | :---: |
+| ![Profile](screenshots/profile.png) | ![Sign in](screenshots/login.png) |
+
 ## ✨ Features
 
 - **Authentication** — email/password signup & login with hashed passwords
